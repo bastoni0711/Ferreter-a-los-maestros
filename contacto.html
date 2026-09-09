@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto · Ferretería Los Maestros</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/funciones.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Ferretería Los Maestros</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="form-contacto" novalidate>
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" required>
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono">
+
+        <label for="motivo">Motivo de la consulta</label>
+        <select id="motivo" required>
+          <option value="">Selecciona una opción</option>
+          <option>Consulta de stock</option>
+          <option>Cotización de pedido</option>
+          <option>Reclamo</option>
+          <option>Otro</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" required></textarea>
+
+        <button type="submit">Enviar consulta</button>
+        <p id="mensaje-confirmacion"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Ferretería Los Maestros · La Serena, Región de Coquimbo</p>
+  </footer>
+</body>
+</html>
