@@ -3,3 +3,21 @@
   margin: 0;
   padding: 0;
 }
+ 
+body {
+  font-family: Arial, sans-serif;
+  background: #faf7f2;
+  color: #333333;
+  line-height: 1.6;
+}
+ 
+header {
+  background: #4a2e1f;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
